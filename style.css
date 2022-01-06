@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow-x: hidden;
+	font-family: Roboto, sans-serif;
+}
+
+.header-hero-bg {
+	background-color: #1f2937;
+	width: 100vmax;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header {
+	width: 95vw;
+	max-width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	margin: 1em 1em 0;
+}
+
+.header-logo {
+	font-size: 1.5rem;
+	color: #f9faf8;
+	text-decoration: none;
+}
+
+.header-links {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 1em;
+}
+
+.header-links a,
+.hero-desc p {
+	text-decoration: none;
+	color: #E5E7EB;
+	font-size: 18px;
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	max-width: 1000px;
+	margin: 5em;
+	gap: 2em;
+}
+.hero-desc h1{
+	color: #f9faf8;
+	font-size: 48px;
+	font-weight: bolder;
+	margin: 0;
+}
+.hero-desc p {
+	margin-top: 0;
+}
+
+.hero img {
+	height: fit-content;
+}
+
+.hero button {
+	background-color: #3882f6;
+	color: #f9faf8;
+	border: hidden;
+	padding: 0.5em 2em;
+	border-radius: 1ch;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2em;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2em;
+}
+/* https://stackoverflow.com/a/15167593 crop image to fit in a square */
+.img-div {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-color: #3882f6;
+	border-radius: 2ch;
+	border: solid 3px #1f2937;
+}
+
+.card {
+	max-width: 200px;
+}
+
+.quote-bg {
+	background-color: #e5e7eb;
+	width: 100vmax;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.quote-section {
+	font-size: 28px;
+	font-style: italic;
+	font-weight: lighter;
+	color: #1f2937;
+	max-width: 850px;
+	display: grid;
+	gap: 0;
+	margin: 2em;
+}
+
+.quote {
+	margin-bottom: 0;
+}
+
+.speaker {
+	justify-self:flex-end;
+	margin-top: 0;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.c2a {
+	background-color: #3882f6;
+	color: #E5E7EB;
+	width: 1000px;
+	display: flex;
+	justify-content: space-around;
+	margin: 3em;
+	padding: 1em 0;
+}
+
+.c2a-text h3 {
+	margin-bottom: 0;
+}
+
+.c2a-text p {
+	margin-top: 0;
+}
+
+.c2a-button {
+	background-color: #3882f6;
+	color: #f9faf8;
+	padding: 0.5em 2em;
+	margin: auto 0 auto;
+	border-radius: 1ch;
+	border: solid;
+}
+
+footer {
+	background-color: #1f2937;
+	display: flex;
+	width: 100vmax;
+	justify-content: center;
+}
+
+footer p {
+	color: #E5E7EB;
+}
